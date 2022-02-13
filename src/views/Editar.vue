@@ -1,5 +1,4 @@
 <template>
-  <h2>{{$route.params.id}}</h2>
   <h1>Editar: {{tarea.nombre}}</h1>
     <form @submit.prevent="updateTarea(tarea)">
         <Input :tarea="tarea"/>
